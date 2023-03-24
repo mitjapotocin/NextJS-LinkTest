@@ -11,6 +11,14 @@ export default function TestPage(props: any) {
   return (
     <div>
       <h1>Test page</h1>
+      <h3>Props should be:</h3>
+      <code>
+        {JSON.stringify({
+          test: [1, 2, 3],
+        })}
+      </code>
+
+      <h3>Actual props:</h3>
       <code>{JSON.stringify(props)}</code>
     </div>
   );
