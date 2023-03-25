@@ -6,11 +6,11 @@ export async function getServerSideProps() {
   };
 }
 
-export default function TestPage(props: any) {
+export default function TestPage(props) {
   console.log(props);
   return (
     <div>
-      <h1>Test page</h1>
+      <h1>Test page with <code>getServerSideProps</code></h1>
       <h3>Props should be:</h3>
       <code>
         {JSON.stringify({
