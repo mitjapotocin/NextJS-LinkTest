@@ -4,4 +4,4 @@ Link to `/test` works in developement (`yarn dev`)
 
 If you build and start `yarn build` `yarn start` the link will not work (props for the `/test` page will be `{}`).
 
-Works on `next@12.2` not working on `next@13.4` or `next@canary` 
+Works on `next@12.2` not working on `next@13.2.4` or `next@canary` 

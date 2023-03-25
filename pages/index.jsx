@@ -6,7 +6,7 @@ export default function Home() {
       <h1>Home - Client side navigation</h1>
       <p>
         Hover on the Link component below and check the network tab. You should
-        see a test.json with <strong>page props</strong>.
+        see a test.json with <strong>empty object {}</strong>.
       </p>
       <div>
         <Link href={"/test"} prefetch={false}>
