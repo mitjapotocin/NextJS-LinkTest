@@ -10,7 +10,7 @@ export default function Home() {
       </p>
       <div>
         <Link href={"/test"} prefetch={false}>
-          <a>Testpage (prefetch=false so it should prefetch on hover)</a>
+          Testpage (prefetch=false so it should prefetch on hover)
         </Link>
       </div>
     </div>
